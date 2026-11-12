@@ -13,5 +13,5 @@ hasBoughtProductFromITCategory = false;
 hasAttendedDiscountEvent = true;
 isPlatinum = false;
 
-let hasPromotion = (lastMonthPaidMoreThan4000 && isWeekday && !hasBoughtProductFromITCategory && hasAttendedDiscountEvent) || (isPlatinum);
+let hasPromotion = (lastMonthPaidMoreThan4000 && isWeekday && !hasBoughtProductFromITCategory && !hasAttendedDiscountEvent) || (isPlatinum);
 console.log(hasPromotion);
